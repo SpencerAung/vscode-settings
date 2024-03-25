@@ -111,6 +111,24 @@
         {
             "before": [
                 "[",
+                "g"
+            ],
+            "commands": [
+                "workbench.action.editor.previousChange"
+            ]
+        },
+        {
+            "before": [
+                "]",
+                "g"
+            ],
+            "commands": [
+                "workbench.action.editor.nextChange"
+            ]
+        },
+        {
+            "before": [
+                "[",
                 "d"
             ],
             "commands": [
